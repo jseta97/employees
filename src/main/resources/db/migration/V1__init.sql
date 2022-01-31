@@ -23,8 +23,6 @@ CREATE TABLE addresses (
 DROP TABLE IF EXISTS departments;
 CREATE TABLE departments (
     id              INT PRIMARY KEY AUTO_INCREMENT,
-    headid          INT NOT NULL,
     masterdept      INT,
-    addrid          INT  NOT NULL,
     deptname        VARCHAR(255)
 )
