@@ -7,6 +7,7 @@ import pl.polsl.pai.employees.model.*;
 import javax.validation.Valid;
 import java.util.List;
 
+@CrossOrigin("https://prac-portal.herokuapp.com/")
 @RestController
 public class EmployeeController {
     private final EmployeesRepository employeesRepository;
